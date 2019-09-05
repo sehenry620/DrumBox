@@ -8,7 +8,7 @@ body {
     height: 530px;
     border: 1px thin black;
     float: left;
-    display: flex;
+    /* display: flex; */
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
@@ -20,6 +20,9 @@ body {
 
 #soundbox1 {
     width: 100px;
+    position: relative;
+    left: 500px;
+    top: 265px;
     height: 100px;
     background-color: navy;
     border-radius: 50%;
@@ -29,7 +32,9 @@ body {
 #soundbox2 {
     width: 100px;
     height: 100px;
-    background-color:  navy;
+    background-color: navy;
+    left: 540px;
+    position: relative;
 
 }
 
@@ -38,6 +43,9 @@ body {
     height: 100px;
     background-color: navy;
     border-radius: 50%;
+    position: relative;
+    left: 140px;
+    bottom: 160px;
     
 }
 
@@ -45,6 +53,9 @@ body {
     width: 100px;
     height: 100px;
     background-color: navy;
+    position: relative;
+    left: 330px;
+    top: 40px;
 
 }
 
