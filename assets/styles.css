@@ -1,0 +1,47 @@
+body {
+    background-color: lightblue; 
+}
+
+#mainbox {
+    width: 600px;
+    height: 230px;
+    background-color: white;
+    border: 1px thin black;
+    float: left;
+    
+}
+
+#soundbox1 {
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+
+}
+
+#soundbox2 {
+    width: 100px;
+    height: 100px;
+    background-color:  black;
+
+}
+
+#soundbox3 {
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+}
+
+#soundbox4 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+
+}
+
+#mainbox {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+    
