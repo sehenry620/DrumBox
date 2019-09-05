@@ -1,47 +1,70 @@
 body {
-    background-color: lightblue; 
+    background-color: black;
+    
 }
 
 #mainbox {
-    width: 600px;
-    height: 230px;
-    background-color: white;
+    width: 700px;
+    height: 530px;
     border: 1px thin black;
     float: left;
-    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 260px;
+    background-image: url("drumset.jpg");
+    background-size: cover;
 }
+
 
 #soundbox1 {
     width: 100px;
     height: 100px;
-    background-color: lightpink;
+    background-color: navy;
+    border-radius: 50%;
 
 }
 
 #soundbox2 {
     width: 100px;
     height: 100px;
-    background-color:  black;
+    background-color:  navy;
 
 }
 
 #soundbox3 {
     width: 100px;
     height: 100px;
-    background-color: lightpink;
+    background-color: navy;
+    border-radius: 50%;
+    
 }
 
 #soundbox4 {
     width: 100px;
     height: 100px;
-    background-color: black;
+    background-color: navy;
 
 }
 
-#mainbox {
+
+p {
+    color: white;
+    font-family: Comic Sans MS;
+    
+
+}
+
+.soundbox {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
     align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    color: white;
+    font-family: Comic Sans MS;
+    margin-left: 430px;
 }
     
