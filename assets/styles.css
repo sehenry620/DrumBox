@@ -22,18 +22,18 @@ body {
     width: 100px;
     position: relative;
     left: 500px;
-    top: 265px;
+    top: 275px;
     height: 100px;
-    background-color: navy;
     border-radius: 50%;
+    
 
 }
 
 #soundbox2 {
     width: 100px;
     height: 100px;
-    background-color: navy;
     left: 540px;
+    bottom: 10px;
     position: relative;
 
 }
@@ -41,27 +41,25 @@ body {
 #soundbox3 {
     width: 100px;
     height: 100px;
-    background-color: navy;
     border-radius: 50%;
     position: relative;
     left: 140px;
-    bottom: 160px;
+    bottom: 165px;
     
 }
 
 #soundbox4 {
     width: 100px;
     height: 100px;
-    background-color: navy;
     position: relative;
-    left: 330px;
+    left: 325px;
     top: 40px;
 
 }
 
 
 p {
-    color: white;
+    color: black;
     font-family: Comic Sans MS;
     
 
