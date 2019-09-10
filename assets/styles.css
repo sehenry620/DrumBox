@@ -33,7 +33,7 @@ body {
     width: 100px;
     height: 100px;
     left: 540px;
-    bottom: 10px;
+    bottom: 13px;
     position: relative;
 
 }
@@ -44,7 +44,7 @@ body {
     border-radius: 50%;
     position: relative;
     left: 140px;
-    bottom: 165px;
+    bottom: 166px;
     
 }
 
@@ -55,6 +55,14 @@ body {
     left: 325px;
     top: 40px;
 
+}
+
+#soundbox5 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 220px;
+    bottom: 253px;
 }
 
 

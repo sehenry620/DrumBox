@@ -8,11 +8,13 @@
         var highhat = new Audio("assets/sounds/highhat.wav");
         var crashcymbal = new Audio("assets/sounds/crashcymbal.wav");
         var bassdrum = new Audio("assets/sounds/bassdrum.wav");
+        var tomdrum = new Audio("assets/sounds/tomdrum.mp3");
 
         let soundbox1element = document.querySelector("#soundbox1");
         let soundbox2element = document.querySelector("#soundbox2");
         let soundbox3element = document.querySelector("#soundbox3");
         let soundbox4element = document.querySelector("#soundbox4");
+        let soundbox5element = document.querySelector("#soundbox5");
 
 
         
@@ -32,6 +34,10 @@
 
         soundbox4element.addEventListener ("click", function playsound (){
             bassdrum.play();
+        })
+
+        soundbox5element.addEventListener ("click", function playsound (){
+            tomdrum.play();
         })
 
 
