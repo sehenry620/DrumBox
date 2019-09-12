@@ -16,8 +16,6 @@
         let soundbox4element = document.querySelector("#soundbox4");
         let soundbox5element = document.querySelector("#soundbox5");
 
-
-        
         
 
         soundbox1element.addEventListener ("click", function playsound (){

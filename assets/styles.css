@@ -8,7 +8,6 @@ body {
     height: 530px;
     border: 1px thin black;
     float: left;
-    /* display: flex; */
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
@@ -25,6 +24,7 @@ body {
     top: 275px;
     height: 100px;
     border-radius: 50%;
+    cursor: pointer;
     
 
 }
@@ -35,6 +35,8 @@ body {
     left: 540px;
     bottom: 13px;
     position: relative;
+    cursor: pointer;
+
 
 }
 
@@ -45,6 +47,8 @@ body {
     position: relative;
     left: 140px;
     bottom: 166px;
+    cursor: pointer;
+
     
 }
 
@@ -54,6 +58,8 @@ body {
     position: relative;
     left: 325px;
     top: 40px;
+    cursor: pointer;
+
 
 }
 
@@ -63,6 +69,8 @@ body {
     position: relative;
     left: 220px;
     bottom: 253px;
+    cursor: pointer;
+
 }
 
 
